@@ -65,144 +65,15 @@
   margin-top: 25px;
   margin-bottom: 25px;
 }
-.Menu-items,.Registration-items{
-  padding: 4px;
-  margin:5px;
-  display: block;
+button {
+  background-color: rgb(12, 134, 182);
+  border: none;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px;
 }
-.Menu-heading{
-  background-color:grey;
-  color:white;
-  margin-top:0px;
-  border-radius: 9px;
-}
-.Registration,.Loginform,.Counter2{
-  height: 350px;
-  background: linear-gradient(45deg,green,yellow,green);
-  margin-top: 20px;
-  border:2px solid black;
-}
-.Registration-items{
-  text-align: center;
-  margin: auto;
-  margin-block-end: 7px;
-  width:250px;
-  height: 25px;
-  border-radius: 4px;
-}
-.Registration-heading{
-  background-color:green;
-  color:white;
-  margin-top:0px;
-  border-radius: 9px;
-}
-.Footer{
-  background-color: grey;
-  text-align: center;
-  height: 30px;
-}
-.Hobbies{
-  background-color: rgb(204, 119, 8);
-  color:white;
-  font-size: large;
-  margin:auto;
-  width: 400px;
-  margin-top:30px;
-}
-.Table{
-  border:black solid 2px;
-  width:350px;
-  margin:auto;
-  padding:5px;
-}
-.Table-items{
-  border:black solid 2px;
-  text-align:center;
-  padding:7px;
-}
-.Loginform{
-  height: 200px;
-  text-align: center;
-  margin-bottom: 25px;
-}
-.Counter2{
-height :100px;
-padding:20px;
-background: linear-gradient(45deg,skyblue,white,skyblue);
-margin-bottom: 25px;
-text-align: center;
-
-}
-.text-danger{
-  color:red;
+.time {
   font-size: 20px;
-}
-.Todo-heading{
-  text-align: center;
-}
-.table-Id{
-  width:8%;
-  border:solid 2px black;
-  padding:5px;
-}
-.table_UserId{
-  width:8%;
-  border:solid 2px black;
-  padding:5px;
-}
-.table_title{
-  width:55%;
-  border:solid 2px black;
-  padding:5px;
-}
-.table_dueon{
-  width:20%;
-  border:solid 2px black;
-  padding:5px;
-}
-.table_status{
-  width:8%;
-  border:solid 2px black;
-  padding:5px;
-
-}
-.AllTodo{
-  background: linear-gradient(45deg,green,yellow);
-}
-.Regstration{
-  background: magenta;
-}
-.Registration-form{
-  text-align: center;
-}
-.Registration-input{
-  width:28%;
-  height:25px;
-  text-align: center;
-  border-radius: 10px;
-  margin:12px;
-}
-.useRef-div{
-  text-align: center;
-  background: linear-gradient(45deg,green,yellow);
-}
-.Heading-useRef{
-  color:coral;
-  border: crimson 2px solid;
-}
-.Library{
-  background-color: cadetblue;
-}
-.Library-form{
-  text-align: center;
-}
-.Library-input{
-  width:28%;
-  height:25px;
-  text-align: center;
-  border-radius: 10px;
-  margin:12px;
-}
-.Library-heading{
-  text-align: center;
+  margin: 10px;
 }

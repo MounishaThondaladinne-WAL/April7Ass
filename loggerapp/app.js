@@ -53,22 +53,22 @@ db.on("open", function () {
 // view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "pug");
-app.use(logger("dev"));
+/*app.use(logger("dev"));
 app.use(logger("combined"));
 app.use(logger("tiny"));
 app.use(logger("short"));
 app.use(logger("common"));
-app.use(logger("Loggin my own and status = :status"));
+app.use(logger("Loggin my own and status = :status"));*/
 app.use(
   logger(
     "My custom logging :status :method :url :res[content-length] - and it took : response-time ms"
   )
 );
-app.use(
+/*app.use(
   logger(
     "status-:status\nmethod-:method\nurl-:url\ncontent length-:res[content-length]\ntime-:response-time ms"
   )
-);
+);*/
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
