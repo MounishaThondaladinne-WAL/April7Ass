@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>set interval and clear interval</title>
+  </head>
+  <body>
+    <div></div>
+    <button onclick="stop()">Stop</button>
+    <script>
+      let i = 0;
+      const interval = setInterval(() => {
+        i++;
+        document.querySelector("div").textContent = i;
+      }, 1000);
+      const stop = () => {
+        clearInterval(interval);
+      };
+    </script>
+  </body>
+</html>
